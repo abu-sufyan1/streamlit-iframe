@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <link rel="shortcut icon" href="./favicon.png">
+        <title>Streamlit App</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-99G772J80M"></script>
+        <script>
+            window.dataLayer = window.dataLayer || []; 
+            function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+            gtag('config', 'G-99G772J80M');
+        </script>
+        <style>
+            .iframe-content {
+                padding: 0;
+                overflow: hidden;
+            }
+            iframe {
+                border: 0;
+            }
+            .full-height {
+                height: calc(100vh - 18px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="iframe-content mat-app-background full-height">
+            <iframe
+                id="app-iframe"
+                width="100%"
+                height="100%"
+                src="https://sheikh-streamlit-app.herokuapp.com/"
+                title="Streamlit App"
+            ></iframe>
+        </div>
+    </body>
+</html>
